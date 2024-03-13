@@ -1,0 +1,188 @@
+.nova-square {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .logo {
+
+    height: 50px;
+    width: 100px;
+  }
+
+  #content {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(white, rgba(255, 255, 255, 0)), url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titolo {
+
+    font-size: 70px;
+    letter-spacing: 100px;
+}
+
+.background-red {
+
+  background-color: darkred;
+
+}
+.text-color {
+
+    color: darkred;
+}
+
+.background-1 {
+
+    background-color: #ececec;
+}
+
+@media screen and (max-width: 750px){
+    
+    .titolo {
+
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+}
+
+.virgolette::before {
+
+    content: '"';
+    font-size: 60px;
+    color: darkred;
+    font-style: oblique; 
+}
+
+.virgolette::after {
+
+    content: '"';
+    font-size: 60px;
+    font-style: oblique;
+    color: darkred;
+}
+
+.barra {
+
+  border-bottom: 5px solid  darkred;
+  width: 175px;
+  
+}
+
+.barra2 {
+
+  border-left: 5px solid  darkred;
+  
+}
+
+.circle2 {
+    border: 2px solid darkred;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: -12px;
+}
+
+
+.circle {
+  border: 2px solid darkred;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  bottom: -8px;
+}
+
+
+
+#content2 {
+  width: 100%;
+  height: 75vh;
+  background-image: url(media/trees2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#content3 {
+  height: 100%;
+  width: 100%;
+  background-image: url(media/single.png);
+  background-size:contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:767px) {
+  #content3 {
+    height: 100%;
+    width: 100%;
+    background-image: url(media/single.png);
+    background-size:contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+.circle3 {
+
+  border: 4px solid darkred;
+  border-radius: 50%;
+  border-spacing: 10px;
+  width: 150px;
+  height: 150px;
+  
+
+}
+
+.circle4 {
+
+  border: 4px solid darkred;
+  border-radius: 50%;
+  border-spacing: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+#content4 {
+  width: 100%;
+  height: 75vh;
+  background-image: url(media/other.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
